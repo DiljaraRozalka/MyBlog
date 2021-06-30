@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+
+<% posts.forEach(function(post){ %>
+
+  <h1 class="postTitle"><%=post.title%></h1>
+  <p class="postContent">
+  <%=post.content.substring(0, 100) + " ..."%>
+  <a href="/posts/<%=post._id%>">Read More</a>
+  <form class="deleteButton" action="/delete" method="post"">
+     <button type="submit" name="button" value="<%=post._id%>" class="btn btn-link"><i class="fas fa-trash" style="color:#045762"></i></button>
+   </form>
+  </p>
+
+
+  <% }) %>
+
+
+<%- include("partials/footer"); -%>

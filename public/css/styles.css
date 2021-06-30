@@ -1,0 +1,94 @@
+body {
+  background-image: url(https://soo.elfond.ee/wp-content/uploads/2015/11/rdi-jarv-panoraam_veike_22506934357_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.title {
+  color: #045762;
+font-family: 'Great Vibes', cursive;
+font-size: 140px;
+margin-top: 90px;
+}
+.content{
+  color: #045762;
+font-family: 'Great Vibes', cursive;
+font-size: 100px;
+margin-left: 200px;
+margin-top: 0px;
+}
+.composeTitle,.composePost,.composeCompose{
+  color: #f4f9f9;
+}
+
+
+.postTitle {
+  color: #f4f9f9;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.postContent {
+  color: #045762;
+  font-family: 'Roboto', sans-serif;
+}
+.postContent a {
+  color: #045762;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+  font-family: 'Roboto', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 45px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+
+}
+.nav li {
+  padding-left:10px;
+  padding-right:10px;
+}
+.nav li a {
+  color: #045762;
+}
+.navbar-nav  li a:hover {
+    color: #f4f9f9;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background: none;
+
+}
+.navbar-inner {
+    background-color:transparent;
+}
+.navbar-brand {
+  color: #f4f9f9;
+  font-family: 'Alex Brush', cursive;
+font-size: 64px;
+
+.footer-padding {
+	padding-bottom: 0px;
+}
+.fa-trash {
+  color: #045762;
+}
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 0px;
+
+}
